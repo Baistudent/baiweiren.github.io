@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy7_2</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div> 
+		<button onClick="openFunction()">开灯</button>
+    	<img src="image/close.jpg" alt="">
+		<button onClick="closeFunction()">关灯</button>
+	</div>
+    <script>
+		var img = document.querySelector('img');
+    	function openFunction()
+		{
+			img.src = 'image/open.jpg';
+		}
+		function closeFunction()
+		{
+			img.src = 'image/close.jpg';
+		}
+    </script>
+</body>
+</html>
